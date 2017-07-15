@@ -25,9 +25,9 @@ Set these up with these step-by-step instructions:
     1. Under "Select blueprint", choose skip.
     1. Under "Configure triggers", select "Alexa Skills Kit" as the trigger.
   
-     ![alt text](https://cloud.githubusercontent.com/assets/7671574/17451088/ff126618-5b18-11e6-8f46-fbfb9461ab80.png "AWS Lambda Create Trigger Screenshot")
+![alt text](https://cloud.githubusercontent.com/assets/7671574/17451088/ff126618-5b18-11e6-8f46-fbfb9461ab80.png "AWS Lambda Create Trigger Screenshot")
      
-    1. Under "Configure function":
+   1. Under "Configure function":
       1. Enter "MyFeedSkillLambdaFunction" under "Name".  
       1. Choose the role you created above under "Existing role".
       1. Change the "Timeout" to 30 seconds, since feeds can become an issue.
